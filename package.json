@@ -1,19 +1,22 @@
 {
-  "name": "bitcore-build",
+  "name": "viacore-build",
   "version": "0.8.0",
-  "description": "A helper for common tasks to build bitcore modules'",
+  "description": "A helper for common tasks to build viacore modules'",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bitpay/bitcore-build"
+    "url": "git://github.com/viacoin/viacore-build"
   },
   "keywords": [
-    "bitcore"
+    "viacore"
   ],
   "contributors": [
+    {
+      "name": "Romano"
+    },
     {
       "name": "Esteban Ordano",
       "email": "esteban@bitpay.com"
@@ -37,9 +40,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-build/issues"
+    "url": "https://github.com/viacoin/viacore-build/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcore-build",
+  "homepage": "https://github.com/viacoin/viacore-build",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",
